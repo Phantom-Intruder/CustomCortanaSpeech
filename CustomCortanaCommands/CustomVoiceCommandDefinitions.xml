@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="en-gb" Name="CustomCommands">
+   <CommandPrefix> Listen Up </CommandPrefix>
+    <Example> Open File, Open Website </Example>
+    
+    <Command Name="ShutDownComputer">
+      <Example> Shut down, power off, i'm going to bed</Example>          
+      <ListenFor> How are you</ListenFor>    
+      <ListenFor> Power off</ListenFor>    
+      <ListenFor> I'm going to bed</ListenFor>    
+
+      <Feedback> Mama hondin innawa </Feedback>
+      <Navigate/>          
+    </Command>
+
+   
+  </CommandSet>  
+
+</VoiceCommands>
